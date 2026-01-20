@@ -25,22 +25,19 @@ nav{
 
 
     nav ul{
+        color: white;
         list-style: none;
         display: flex;
         justify-content: space-between;
         gap: 32px;
     }
 
-    nav button{
-        background: linear-gradient(47.64deg, #f7e93f, #fb09b4, #9100f8);
-        border: none;
-        color: white;
-        font-weight:600;
-        transition: all 0.2s ease;
-    }
-
-    nav button:hover{
-        box-shadow: 0 0 20px rgba(251, 9, 180, 0.6);
+    .btn{
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4, #9100F8);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
     }
     /* 1st section */
     
@@ -63,8 +60,8 @@ nav{
 .mic{
   position: absolute;
   width: 70px;
-  top: 60%;
-  left: 40%;
+  top: 23%;
+  left: 32%;
 }
 .hero-circle{
   position: relative;
@@ -100,7 +97,7 @@ nav{
 }
 
 .btn-spotify {
-    background: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);
+    background: linear-gradient(90deg, #F7E93F 0%, #FB09B4, #9100F8);
     color: white;
     padding: 12px 25px;
     border-radius: 30px;
